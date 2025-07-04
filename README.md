@@ -19,7 +19,7 @@ See the Docker_README.md file
 ## Usage
 
 ### Using trained model for pKa prediction
-`example.ipynb` is an example notebook for using MolGpKa, model weights file are located in `models`.
+`run_pka_example.ipynb` is an example notebook for using MolGpKa, model weights file are located in `models`. Note: when you use jupyter in vscode, it maybe can't show the result using py3dmol. You just need to recreate a notebook and copy the code into new notebook, and it can run well.
 
 ### Training model for convolutional-graph neural networks
 
