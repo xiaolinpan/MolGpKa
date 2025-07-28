@@ -9,8 +9,8 @@ from rdkit import Chem
 import os
 import pandas as pd
 
-# root = os.path.abspath(os.path.dirname(__file__))
-root = os.path.join(os.path.abspath(""), "utils")
+# Fix the path to smarts_pattern.tsv
+root = os.path.abspath(os.path.dirname(__file__))
 smarts_file = os.path.join(root, "smarts_pattern.tsv")
 
 def split_acid_base_pattern(smarts_file):

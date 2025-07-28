@@ -77,7 +77,9 @@ def predict_for_protonate(mol, uncharged=True):
 
 
 if __name__=="__main__":
-    mol = Chem.MolFromSmiles("CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(C)=O")
+    smi = "CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(C)=O"
+    smi = "C=C(c1cncc(C(=O)O)c1O)N(C)C"
+    mol = Chem.MolFromSmiles(smi)
     base_dict, acid_dict = predict(mol)
     print("base:",base_dict)
     print("acid:",acid_dict)
