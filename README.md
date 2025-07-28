@@ -15,6 +15,7 @@ See the Docker_README.md file
 * numpy 1.18.1
 * pandas 0.25.3
 * pickle
+* flask
 
 ## Usage
 
