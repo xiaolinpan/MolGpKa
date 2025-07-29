@@ -946,3 +946,26 @@ code {
     background: #e3f2fd;
     transform: translateY(-1px);
 }
+
+/* Dark mode styles */
+body.dark-mode {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: var(--gray-200);
+}
+
+body.dark-mode .navbar,
+body.dark-mode .card,
+body.dark-mode .input-group-text,
+body.dark-mode .modal-content {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: var(--gray-200);
+}
+
+body.dark-mode .navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .btn-primary {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+    border: none;
+}

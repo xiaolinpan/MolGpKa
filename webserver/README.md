@@ -9,6 +9,7 @@ A Flask-based web application for pKa prediction with molecular visualization.
 - **Molecular Visualization**: Generate images with highlighted ionization sites
 - **Responsive Design**: Modern, mobile-friendly web interface
 - **Real-time Results**: Instant pKa predictions with visual feedback
+- **Dark Mode Toggle**: Switch between light and dark themes
 
 ## Quick Start
 
